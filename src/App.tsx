@@ -1,5 +1,6 @@
 
 import About from './components/About.js';
+import Contact from './components/Contact.js';
 import { Navbar } from './components/Navbar.js';
 import SeanHero from './components/SeanHero.js';
 import Skills from './components/Skills.js';
@@ -12,6 +13,7 @@ function App() {
     <Skills/>
     <About/>
     <Work/>
+    <Contact/>
     </div>
   );
 }
