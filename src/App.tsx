@@ -1,4 +1,5 @@
 
+import About from './components/About.js';
 import { Navbar } from './components/Navbar.js';
 import SeanHero from './components/SeanHero.js';
 import Skills from './components/Skills.js';
@@ -8,6 +9,7 @@ function App() {
     <Navbar/>
     <SeanHero/>
     <Skills/>
+    <About/>
     </div>
   );
 }
