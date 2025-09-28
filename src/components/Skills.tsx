@@ -5,6 +5,7 @@ import jsImg from '../assets/img/javascript.png';
 import reactImg from '../assets/img/react.png';
 import angularImg from '../assets/img/angular.png';
 import tailwindImg from '../assets/img/tailwind.png';
+import mysqlImg from '../assets/img/mysql2.png';
 const Skills = () => {
   return (
     <div className='bg-black border border-gray-600 text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-6
@@ -29,6 +30,10 @@ const Skills = () => {
         <div className='flex flex-col items-center m-4 sm:my-0 w-[80px] md:w-[100px]'>
           <img src={tailwindImg} alt='' width={100} height={100}/>
           <p className='mt-2'>Tailwind</p>
+        </div>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[80px] md:w-[100px]'>
+          <img src={mysqlImg} alt='' width={100} height={100}/>
+          <p className='mt-2'>MySql</p>
         </div>
         <div className='flex flex-col items-center m-4 sm:my-0 w-[80px] md:w-[100px]'>
           <img src={angularImg} alt='' width={100} height={100}/>
