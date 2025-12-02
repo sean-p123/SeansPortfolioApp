@@ -13,6 +13,6 @@ const SeanHero = () => {
                                     1000,
                                     "Backend Dev",
                                     1000,
-                                ], wrapper: 'span', speed: 50, repeat: Infinity })] }), _jsx("p", { className: 'text-white sm:text-lg my-6 lg:text-xl', children: "My name is Sean Patten and I have 2+ years experience in Fullstack development" }), _jsxs("div", { className: 'my-8', children: [_jsx("a", { href: '/', className: 'px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-pink-500 text-white', children: "Download CV" }), _jsx("a", { href: '/', className: 'px-6 py-3 w-full rounded-xl mr-4 border border-gray-400\r\n               hover:bg-gradient-to-br from-orange-500 to-pink-500 text-white hover:border-none', children: "Contact" })] })] })] }));
+                                ], wrapper: 'span', speed: 50, repeat: Infinity })] }), _jsx("p", { className: 'text-white sm:text-lg my-6 lg:text-xl', children: "My name is Sean Patten and I have 2+ years experience in Fullstack development" }), _jsx("div", { className: 'my-8', children: _jsx("a", { href: '/', className: 'px-6 py-3 w-full rounded-xl mr-4 border border-gray-400\r\n               hover:bg-gradient-to-br from-orange-500 to-pink-500 text-white hover:border-none', children: "Contact" }) })] })] }));
 };
 export default SeanHero;
