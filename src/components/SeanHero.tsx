@@ -14,6 +14,8 @@ const SeanHero = () => {
           </span> <br/>
           <TypeAnimation 
             sequence={[
+              "Software Eng.",
+              1000,
               "Fullstack Dev",
               1000,
               "Webdesigner",
