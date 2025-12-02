@@ -13,7 +13,7 @@ export function Navbar() {
           <h1 className="text-3xl font-bold primary-color ml-4">S. Patten</h1>
           <ul className="hidden md:flex">
             <li className="p-5"><a href="#about">About</a></li>
-            <li className="p-5"><a href="#work">Work</a></li>
+            {/* <li className="p-5"><a href="#work">Work</a></li> */}
             <li className="p-5"><a href="#contact">Contact</a></li>
           </ul>
           <div onClick={handleNav} className="block md:hidden">
