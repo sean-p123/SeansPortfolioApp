@@ -10,19 +10,23 @@ const About = () => {
           <div className='my-auto mx-6'>
               <h2 className='text-4xl font-bold mb-4 primary-color'>About Me</h2>
               <p className='text-base lg:text-lg'>
-                For anyone who has discovered my site! <br/>
-                  My name is Sean Patten and I am a dedicated, enthusiastic software engineer. 
-                  I am an expat from Galway, Ireland and I have been living in the amazing city of Amsterdam for over two years now. 
-                  In my time here, I have been working as a software engineer and I have developed a lot of great experience. 
-                  Primarily as a Lead Fullstack developer, where I implement exciting new features, robust designs or complex SQL queries. 
-                  I also take on responsibilities such as creating bash and PowerShell scripts to automate workflows and improve efficiency and ease of deployment.
-                  <br/><br/>
-                  My main toolkit includes Angular/React, Node.js, TypeScript, and SQL, and I enjoy working across the stack 
-                  to deliver clean, maintainable, and user-friendly solutions. I am passionate about problem-solving, 
-                  collaborating with teams, and continuously learning new technologies.<br/><br/>
-                  
-                  Outside of work, I enjoy exploring local culture, meeting new and insteresting people and keeping a touch 
-                  of Ireland alive through music and community. <br/><br/>
+                For anyone who has discovered my site! <br/><br/>
+                My name is Sean Patten, and I am a software engineer originally from Galway, Ireland, now living in Amsterdam, Netherlands.
+                I have over three years of professional experience developing and maintaining web applications, working across both frontend and backend technologies. 
+                My experience includes working as a Lead Full-Stack Developer, building applications and features from the ground up, designing application architecture, 
+                developing complex database queries, and improving system performance and security. More recently, I have been working as a Medior Frontend Developer at 
+                Software Improvement Group, focusing on developing maintainable, high-quality applications, building reusable components, improving user experiences, 
+                and ensuring software quality through automated testing. <br/><br/>
+
+                My technical toolkit includes Angular, React, TypeScript, JavaScript, Node.js, C#/.NET, and SQL. I also have experience with REST API development, 
+                database management, Docker, CI/CD pipelines, and automated testing. I enjoy working across the stack, from designing intuitive user interfaces and 
+                reusable components to implementing backend functionality, optimising database performance, and building secure application workflows. <br/><br/>
+
+                I have a particular interest in software architecture, application security, and writing clean, maintainable code. I also enjoy exploring new development 
+                tools and incorporating AI-assisted development into my workflow to improve productivity, code quality, and problem-solving.
+                I am passionate about tackling challenging problems, learning new technologies, and continuously developing as a software engineer. <br/><br/>
+
+                Outside of software development, I enjoy exploring new places, meeting interesting people, and keeping a little bit of Ireland alive through music and community.
               </p>
             </div>          
         </div>

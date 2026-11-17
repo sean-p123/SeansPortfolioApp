@@ -1,6 +1,6 @@
 {
   "name": "seans-portfolio-app",
-  "homepage": "https://sean-p123.github.io/SeansPortfolioApp",
+  "homepage": "https://sean-portfolio.github.io/SeansPortfolioApp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,10 +10,13 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "localdeploy": "tsc -b && vite build && vite"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
+    "jasmine": "^6.1.0",
+    "jest": "^30.2.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-icons": "^5.5.0",
