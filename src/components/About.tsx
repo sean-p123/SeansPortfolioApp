@@ -31,8 +31,8 @@ const About = () => {
             </div>          
         </div>
         <div className='flex flex-col justify-center items-center gap-6'>
-        <img className='mx-auto row-span-1 rounded-3xl py-8 md:py-0' src={galwayImg} width={500} height={500}/>
-        <img className='mx-auto rounded-3xl col-span-2 py-8 md:py-0' src={amsterdamImg} width={500} height={500}/>
+        <img className='mx-auto row-span-1 rounded-3xl py-8 md:py-0 p-4' src={galwayImg} width={500} height={500}/>
+        <img className='mx-auto rounded-3xl col-span-2 py-8 md:py-0 p-4' src={amsterdamImg} width={500} height={500}/>
         </div>
       </div>
     </div>
