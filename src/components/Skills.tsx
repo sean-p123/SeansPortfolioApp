@@ -9,10 +9,11 @@ import mysqlImg from '../assets/img/mysql2.png';
 import nodejs from '../assets/img/nodejs.png';
 import csharp from '../assets/img/csharp.png';
 import dotnet from '../assets/img/dotnet.png';
+import docker from '../assets/img/docker.png';
 
 const Skills = () => {
   return (
-    <div className='bg-black border border-gray-600 text-gray-400 md:h-[150px] max-w-[1200px] min-w-[500px] mx-auto grid grid-cols-6
+    <div className='bg-black border border-gray-600 text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-3
       place-items-center md:flex md:justify-between md:items-center'>
        
         <h2 className='text-gray-700 text-xl md:text-4xl font-bold m-4'>
@@ -38,6 +39,10 @@ const Skills = () => {
          <div className='flex flex-col items-center m-4 sm:my-0 w-[80px] min-w-[50px] md:w-[100px]'>
           <img src={mysqlImg} alt='' className="w-24 h-24 object-contain"/>
           <p className='mt-2'>MySql</p>
+        </div>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[80px] min-w-[50px] md:w-[100px]'>
+          <img src={docker} alt='' className="w-24 h-24 object-contain"/>
+          <p className='mt-2'>Docker</p>
         </div>
         <div className='flex flex-col items-center m-4 sm:my-0 w-[80px] min-w-[50px] md:w-[100px]'>
           <img src={csharp} alt='' className="w-24 h-24 object-contain"/>
