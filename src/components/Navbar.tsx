@@ -13,6 +13,7 @@ export function Navbar() {
           <h1 className="text-3xl font-bold primary-color ml-4">S. Patten</h1>
           <ul className="hidden md:flex">
             <li className="p-5"><a href="#about">About</a></li>
+            <li className="p-5"><a href="#workexperience">Work Experience</a></li>
             {/* <li className="p-5"><a href="#work">Work</a></li> */}
             <li className="p-5"><a href="#contact">Contact</a></li>
           </ul>
@@ -24,8 +25,8 @@ export function Navbar() {
             <ul className="p-8 text-2xl">
             <li className="p-2"><a href="#home">Home</a></li>
               <li className="p-2"><a href="#about">About</a></li>
-              <li className="p-2"><a href="#work">Work</a></li>
-              <li className="p-2"><a href="#experience">Experience</a></li>
+              <li className="p-2"><a href="#workexperience">Work Experience</a></li>
+              {/* <li className="p-2"><a href="#experience">Experience</a></li> */}
               <li className="p-2"><a href="#contact">Contact</a></li>
             </ul>
           </div>

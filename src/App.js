@@ -5,7 +5,8 @@ import Footer from './components/Footer.js';
 import { Navbar } from './components/Navbar.js';
 import SeanHero from './components/SeanHero.js';
 import Skills from './components/Skills.js';
+import WorkExperience from './components/WorkExperience.js';
 function App() {
-    return (_jsxs("div", { children: [_jsx(Navbar, {}), _jsx(SeanHero, {}), _jsx(Skills, {}), _jsx(About, {}), _jsx(Contact, {}), _jsx(Footer, {})] }));
+    return (_jsxs("div", { children: [_jsx(Navbar, {}), _jsx(SeanHero, {}), _jsx(Skills, {}), _jsx(About, {}), _jsx(WorkExperience, {}), _jsx(Contact, {}), _jsx(Footer, {})] }));
 }
 export default App;
